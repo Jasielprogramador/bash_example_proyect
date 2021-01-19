@@ -1,0 +1,21 @@
+Apr 23 20:05:37 adrian-Lenovo-ideapad-530S-14IKB sudo:   adrian : TTY=pts/0 ; PWD=/home/adrian/Documentos/Proiektua/fitxategi ; USER=root ; COMMAND=/usr/sbin/adduser lsi
+Apr 23 20:05:37 adrian-Lenovo-ideapad-530S-14IKB groupadd[27616]: group added to /etc/group: name=lsi, GID=1003
+Apr 23 20:05:37 adrian-Lenovo-ideapad-530S-14IKB groupadd[27616]: group added to /etc/gshadow: name=lsi
+Apr 23 20:05:37 adrian-Lenovo-ideapad-530S-14IKB groupadd[27616]: new group: name=lsi, GID=1003
+Apr 23 20:05:37 adrian-Lenovo-ideapad-530S-14IKB useradd[27621]: new user: name=lsi, UID=1002, GID=1003, home=/home/lsi, shell=/bin/bash
+Apr 23 20:05:50 adrian-Lenovo-ideapad-530S-14IKB passwd[27629]: pam_unix(passwd:chauthtok): password changed for lsi
+Apr 23 20:05:55 adrian-Lenovo-ideapad-530S-14IKB chfn[27630]: changed user 'lsi' information
+Apr 23 20:08:26 adrian-Lenovo-ideapad-530S-14IKB sshd[28513]: Accepted password for lsi from 127.0.0.1 port 46340 ssh2
+Apr 23 20:08:26 adrian-Lenovo-ideapad-530S-14IKB sshd[28513]: pam_unix(sshd:session): session opened for user lsi by (uid=0)
+Apr 23 20:08:26 adrian-Lenovo-ideapad-530S-14IKB systemd: pam_unix(systemd-user:session): session opened for user lsi by (uid=0)
+Apr 23 20:08:26 adrian-Lenovo-ideapad-530S-14IKB systemd-logind[850]: New session 11 of user lsi.
+Apr 23 20:08:37 adrian-Lenovo-ideapad-530S-14IKB sshd[28617]: Disconnected from user lsi 127.0.0.1 port 46340
+Apr 23 20:08:37 adrian-Lenovo-ideapad-530S-14IKB sshd[28513]: pam_unix(sshd:session): session closed for user lsi
+Apr 23 20:08:47 adrian-Lenovo-ideapad-530S-14IKB sshd[28640]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=127.0.0.1  user=lsi
+Apr 23 20:08:49 adrian-Lenovo-ideapad-530S-14IKB sshd[28640]: Failed password for lsi from 127.0.0.1 port 46342 ssh2
+Apr 23 20:08:52 adrian-Lenovo-ideapad-530S-14IKB sshd[28640]: Accepted password for lsi from 127.0.0.1 port 46342 ssh2
+Apr 23 20:08:52 adrian-Lenovo-ideapad-530S-14IKB sshd[28640]: pam_unix(sshd:session): session opened for user lsi by (uid=0)
+Apr 23 20:08:52 adrian-Lenovo-ideapad-530S-14IKB systemd-logind[850]: New session 13 of user lsi.
+Apr 23 20:08:52 adrian-Lenovo-ideapad-530S-14IKB systemd: pam_unix(systemd-user:session): session opened for user lsi by (uid=0)
+Apr 23 20:08:55 adrian-Lenovo-ideapad-530S-14IKB sshd[28726]: Disconnected from user lsi 127.0.0.1 port 46342
+Apr 23 20:08:55 adrian-Lenovo-ideapad-530S-14IKB sshd[28640]: pam_unix(sshd:session): session closed for user lsi
